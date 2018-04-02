@@ -6,5 +6,5 @@ http.createServer(function (req, res) {
     res.writeHead(200, { 'Content-Type': 'text/plain' });
     res.end('Hello World\n');
 }).listen(port, function () {
-    console.log('Server Started On Port 3000!!!')
+    console.log('Server Started On Port 3000!!!');
 });
